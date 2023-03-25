@@ -1,0 +1,129 @@
+/*
+    Name:     Kimbie (dark)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+:root {
+    --hl-color: #d3af86;
+    /* --hl-bg: #f1f7f7; */
+    /* --hltools-bg: #2ed7ff; */
+    --hltools-color: #fff;
+    /* --hlnumber-bg: #80dcd3; */
+    --hlnumber-color: #fff;
+    --hlscrollbar-bg: #d3af86;
+    --hlexpand-bg: #d3af86;
+}
+
+[data-theme="light"] #article-container .highlight-tools {
+    background: #2ed7ff;
+}
+[data-theme="light"] #article-container figure.highlight table {
+    background: #f1f7f7;
+}
+[data-theme="light"] #article-container figure.highlight .code pre{
+    background: #f1f7f7;
+}
+[data-theme="light"] #article-container figure.highlight .gutter pre {
+    background-color: #80dcd3;
+}
+
+[data-theme="dark"] #article-container .highlight-tools {
+    background: #1c3650;
+}
+[data-theme="dark"] #article-container figure.highlight table {
+    background: #161818;
+}
+[data-theme="dark"] #article-container figure.highlight .code pre{
+    background: #161818;
+}
+[data-theme="dark"] #article-container figure.highlight .gutter pre {
+    background-color: #385277;
+}
+/* :root {
+    --hl-color: #d3af86;
+    --hl-bg: #2c2f33;--
+    --hltools-bg: #1c3650;--
+    --hltools-color: #fff;
+    --hlnumber-bg: #385277;--
+    --hlnumber-color: #fff;
+    --hlscrollbar-bg: #d3af86;
+    --hlexpand-bg: #d3af86;
+} */
+  
+/* Kimbie Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #0d8f3b;
+}
+
+/* Kimbie Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #4eac2b;
+}
+
+/* Kimbie Purple */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function {
+  color: #dc42fc;
+}
+
+[data-theme="light"] #article-container figure.highlight .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f1f7f7;
+  color: #65a4f9;
+  padding: 0.5em;
+}
+
+[data-theme="dark"] #article-container figure.highlight .hljs {
+    display: block;
+    overflow-x: auto;
+    background: #161818;
+    color: #65a4f9;
+    padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
