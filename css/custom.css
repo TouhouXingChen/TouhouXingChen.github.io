@@ -201,7 +201,7 @@
 [data-theme="light"] #aside-content .card-widget,
 [data-theme="light"] .layout > .recent-posts .pagination > *:not(.space).cardHover, 
 [data-theme="light"] .layout > div:first-child:not(.recent-posts){
-    background: #fafff8de;
+    background: #f0f5faf7;
 }
 
 [data-theme="dark"] #recent-posts > .recent-post-item, 
@@ -249,13 +249,22 @@
   background: #33343b;
 }
 
-#recent-posts > .recent-post-item >.recent-post-info > .content {
-    color: #38c6b4;
+[data-theme="light"] #recent-posts > .recent-post-item >.recent-post-info > .content {
+    color: #165185;
 }
 
-.post-content {
-  color: #38c6b4;
+[data-theme="light"] .post-content {
+  color: #165185;
 }
+
+[data-theme="dark"] #recent-posts > .recent-post-item >.recent-post-info > .content {
+  color: #e54c72;
+}
+
+[data-theme="dark"] .post-content {
+color: #e54c72;
+}
+
 
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
   color: #4bccff;
