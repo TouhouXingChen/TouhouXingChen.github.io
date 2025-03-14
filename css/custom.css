@@ -201,7 +201,7 @@
 [data-theme="light"] #aside-content .card-widget,
 [data-theme="light"] .layout > .recent-posts .pagination > *:not(.space).cardHover, 
 [data-theme="light"] .layout > div:first-child:not(.recent-posts){
-    background: #f0f5faf7;
+    background: #fefbedf2;
 }
 
 [data-theme="dark"] #recent-posts > .recent-post-item, 
@@ -250,11 +250,11 @@
 }
 
 [data-theme="light"] #recent-posts > .recent-post-item >.recent-post-info > .content {
-    color: #165185;
+    color: #ff8450;
 }
 
 [data-theme="light"] .post-content {
-  color: #165185;
+  color: #ff8450;
 }
 
 [data-theme="dark"] #recent-posts > .recent-post-item >.recent-post-info > .content {
@@ -267,10 +267,10 @@ color: #e54c72;
 
 
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
-  color: #4bccff;
+  color: #ffae4b;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #4bccff;
+  color: #ffae4b;
 }
 
 /* 全局宽度 */
