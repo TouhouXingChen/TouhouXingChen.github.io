@@ -115,6 +115,10 @@
     width: 250px;
 }
 
+#aside-content #card-toc .toc-content .toc-link.active {
+    background: #ff935d;
+}
+
 /* 滚动条样式 */
 ::-webkit-scrollbar {
   width: 8px;
@@ -127,7 +131,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(#0fbbff);
+  background-color: var(#ffd50f);
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -202,6 +206,9 @@
 [data-theme="light"] .layout > .recent-posts .pagination > *:not(.space).cardHover, 
 [data-theme="light"] .layout > div:first-child:not(.recent-posts){
     background: #fefbedf2;
+    border-style: ridge;
+    border-color: #c49043;
+    border-width:5px;
 }
 
 [data-theme="dark"] #recent-posts > .recent-post-item, 
@@ -209,6 +216,9 @@
 [data-theme="dark"] .layout > .recent-posts .pagination > *:not(.space).cardHover, 
 [data-theme="dark"] .layout > div:first-child:not(.recent-posts){
     background: #212525de;
+    border-style: ridge;
+    border-color: #c49043;
+    border-width:5px;
 }
 
 /* 个人信息卡片背景图 */
@@ -250,11 +260,11 @@
 }
 
 [data-theme="light"] #recent-posts > .recent-post-item >.recent-post-info > .content {
-    color: #ff8450;
+  color: #b46e50;
 }
 
 [data-theme="light"] .post-content {
-  color: #ff8450;
+  color: #b46e50;
 }
 
 [data-theme="dark"] #recent-posts > .recent-post-item >.recent-post-info > .content {
@@ -262,14 +272,27 @@
 }
 
 [data-theme="dark"] .post-content {
-color: #e54c72;
+  color: #e54c72;
 }
-
 
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
   color: #ffae4b;
 }
-h1, h2, h3, h4, h5, h6 {
+
+[data-theme="light"] h1, 
+[data-theme="light"] h2, 
+[data-theme="light"] h3, 
+[data-theme="light"] h4, 
+[data-theme="light"] h5, 
+[data-theme="light"] h6 {
+  color: #ff8c4b;
+}
+[data-theme="dark"] h1, 
+[data-theme="dark"] h2, 
+[data-theme="dark"] h3, 
+[data-theme="dark"] h4, 
+[data-theme="dark"] h5, 
+[data-theme="dark"] h6 {
   color: #ffae4b;
 }
 
